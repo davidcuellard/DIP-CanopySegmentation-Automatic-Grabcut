@@ -5,7 +5,7 @@
 - TG1907
 - Objetivo: Segmentación del dosel arbóreo
 - @author: David Felipe Cuellar Diaz
-- Implementación de algoritmo de degmentación: Grabcut automático sin interacción de usuario.
+- Implementación de algoritmo de segmentación: Grabcut automático sin interacción de usuario.
 - Class: segGrabCutAuto.py
 - Test: testgrabcutauto.py
 - RGB image: IMG_170805_165709_0138_RGB.JPG
