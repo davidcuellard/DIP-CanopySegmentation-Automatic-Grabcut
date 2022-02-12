@@ -30,8 +30,8 @@ class segmentacion:
 
 	# cambia el tamaño de la imagen si es necesario
         if self.resize == True:
-             	height, width = self.imagein.shape[:2]
-             	self.imagein = cv2.resize(self.imagein,(int(self.scalefactor*width), int(self.scalefactor*height)), interpolation = cv2.INTER_NEAREST)
+            height, width = self.imagein.shape[:2]
+            self.imagein = cv2.resize(self.imagein,(int(self.scalefactor*width), int(self.scalefactor*height)), interpolation = cv2.INTER_NEAREST)
 
 	# crea una copia de la imagen                
         imagecopy=self.imagein.copy()
@@ -87,7 +87,7 @@ class segmentacion:
         gf.guidedFilter()
 
         #Información en pantalla
-        print("Gracias por utilizar Grabcut estándar, en el folder se guardó: ")
+        print("Gracias por utilizar Grabcut automático, en el folder se guardó: ")
         print(" - imagecopy.bmp")
         print(" - mask0.bmp")
         print(" - mask1.bmp")
